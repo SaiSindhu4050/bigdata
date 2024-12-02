@@ -1,5 +1,11 @@
 # Big Data Tools and Techniques - Cassandra Medallion Architecture
 
+I followed the steps to create tables in Cassandra. After setting up the Docker
+container, I created a keyspace called sales_data and established the
+connection. Using this setup, I created three tables following the medallion
+architecture pattern - bronze, silver, and gold tables - to process and analyze
+the sales data.
+
 ## Overview
 
 This project demonstrates the implementation of a Medallion Architecture using
